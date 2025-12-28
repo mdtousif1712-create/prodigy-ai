@@ -1,0 +1,131 @@
+{
+  "project_name": "PRODIGY AI",
+  "design_philosophy": {
+    "identity": "Cyber-Academia",
+    "core_values": ["Precision", "Immersion", "Future-Ready"],
+    "aesthetic": "Dark Mode Primary, Glassmorphism, Neon Accents, Bento Grids",
+    "emotional_tone": "Empowering, Intelligent, Sleek"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Space Grotesk, sans-serif",
+      "body": "Manrope, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold tracking-tight",
+      "body_large": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');"
+    ]
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": "#09090b",
+      "foreground": "#fafafa",
+      "card": "rgba(24, 24, 27, 0.6)",
+      "card_foreground": "#fafafa",
+      "popover": "#09090b",
+      "popover_foreground": "#fafafa",
+      "primary": "#8b5cf6",
+      "primary_foreground": "#ffffff",
+      "secondary": "#10b981",
+      "secondary_foreground": "#ffffff",
+      "muted": "#27272a",
+      "muted_foreground": "#a1a1aa",
+      "accent": "#2dd4bf",
+      "accent_foreground": "#09090b",
+      "destructive": "#f43f5e",
+      "destructive_foreground": "#ffffff",
+      "border": "#27272a",
+      "input": "#27272a",
+      "ring": "#8b5cf6"
+    },
+    "gradients": {
+      "primary_glow": "linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%)",
+      "glass_surface": "linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)"
+    }
+  },
+  "layout": {
+    "spacing_scale": "Generous (p-6, p-8, p-12)",
+    "container_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_system": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "card_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+    },
+    "border_radius": {
+      "default": "rounded-xl",
+      "card": "rounded-2xl",
+      "button": "rounded-full"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary hover:bg-primary/90 text-primary-foreground shadow-[0_0_20px_rgba(139,92,246,0.3)] transition-all duration-300 hover:scale-105",
+      "secondary": "bg-secondary/10 text-secondary hover:bg-secondary/20 border border-secondary/20",
+      "ghost": "hover:bg-white/5 text-foreground/80 hover:text-foreground"
+    },
+    "cards": {
+      "default": "bg-card backdrop-blur-xl border border-white/10 shadow-xl hover:border-primary/30 transition-colors duration-300",
+      "interactive": "group relative overflow-hidden bg-card border border-white/10 hover:border-primary/50 transition-all duration-300 hover:shadow-[0_0_30px_rgba(139,92,246,0.15)]"
+    },
+    "inputs": {
+      "default": "bg-zinc-900/50 border-zinc-800 focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
+    },
+    "navigation": {
+      "sidebar": "w-64 bg-background/95 backdrop-blur-md border-r border-border h-screen fixed left-0 top-0 z-40",
+      "topbar": "h-16 bg-background/80 backdrop-blur-md border-b border-border sticky top-0 z-30"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/40 border border-white/10",
+    "neon_glow": "shadow-[0_0_15px_rgba(139,92,246,0.5)]",
+    "tracing_beam": "Use framer-motion or CSS keyframes to animate borders on active cards",
+    "noise_texture": "Add a subtle noise overlay opacity-5 pointer-events-none fixed inset-0 z-50"
+  },
+  "images": {
+    "hero_student": {
+      "url": "https://images.unsplash.com/photo-1632893037506-aac33bf18107?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwc3R1ZHlpbmclMjBsYXB0b3AlMjBuaWdodCUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3NjYyMTA3ODZ8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Student studying at night with laptop",
+      "usage": "Login page background, Student Dashboard Hero"
+    },
+    "teacher_presenting": {
+      "url": "https://images.unsplash.com/photo-1755548413928-4aaeba7c740e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjB0ZWFjaGVyJTIwcHJlc2VudGluZyUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3NjYyMTA3ODh8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Teacher presenting in modern classroom",
+      "usage": "Teacher Dashboard Hero, Landing Page Feature"
+    },
+    "ai_avatar": {
+      "url": "https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGdsb3dpbmclMjBuZXVyYWwlMjBuZXR3b3JrJTIwcHVycGxlfGVufDB8fHx8MTc2NjIxMDc4OXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Abstract Neon AI Head",
+      "usage": "AI Tutor Chat Interface, AI Assistant Icon"
+    },
+    "abstract_shapes": {
+      "url": "https://images.unsplash.com/photo-1764776264351-8a9c86d05338?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwM2QlMjBnZW9tZXRyaWMlMjBzaGFwZXMlMjBmbG9hdGluZ3xlbnwwfHx8fDE3NjYyMTA3OTF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Frosted Glass Geometric Shapes",
+      "usage": "Empty States, 404 Page, Background Decoration"
+    }
+  },
+  "instructions_to_main_agent": {
+    "file_extension": "Use .jsx for all React components. Do not use .tsx.",
+    "styling_strategy": "Use Tailwind CSS utility classes for 95% of styling. Use inline styles only for dynamic values (like progress bars).",
+    "component_library": "Customize the existing Shadcn components in /components/ui. Do not reinvent the wheel, but DO change their default styling to match the 'Cyber-Academia' aesthetic (darker backgrounds, glowing borders).",
+    "icons": "Use lucide-react for all icons.",
+    "charts": "Use Recharts for analytics. Style them with the theme colors (Primary #8b5cf6, Secondary #10b981).",
+    "animations": "Add 'transition-all duration-300' to all interactive elements. Use simple CSS keyframes for 'pulse' or 'float' effects on the AI avatar.",
+    "testing": "MANDATORY: Add data-testid attributes to all interactive elements (buttons, inputs, cards). Format: 'page-section-element-action' (e.g., 'login-form-submit-btn')."
+  },
+  "universal_guidelines": [
+    "Avoid generic 'Bootstrap' layouts. Use asymmetry where possible.",
+    "Never use pure black (#000000) for backgrounds; use #09090b or #0f172a.",
+    "Always provide visual feedback on hover and focus.",
+    "Ensure text contrast ratios meet WCAG AA standards, especially on dark backgrounds.",
+    "Use 'sonner' for all toast notifications.",
+    "For the AI Tutor, create a dedicated 'Chat Interface' that feels like a conversation with a futuristic entity (use the AI Avatar image)."
+  ]
+}
